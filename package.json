@@ -2,7 +2,7 @@
   "author": "Thomas Debarochez",
   "name": "cloudapp",
   "description": "A wrapper for the cloudapp API.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "contributors": [
     { "name": "Sascha Depold", "email": "sascha@depold.com" }
   ],

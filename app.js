@@ -17,13 +17,14 @@ switch (process.argv[0]) {
     if (params.type == 'all') {
       delete params.type;
     }
+    console.log(params)
     cloud.getItems(params, console.log);
   break;
   case 'push':
     cloud.addFile(process.argv[1], console.log);
   break;
   case 'bookmark':
-    cloud.getInfos(process.argv[1], console.log, process.argv[2]);    
+    cloud.getInfos(process.argv[1], console.log, process.argv[2]);
   break;
   case 'info':
     cloud.getInfos(process.argv[1], console.log);
