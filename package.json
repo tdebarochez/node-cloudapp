@@ -1,0 +1,19 @@
+{
+  "author": "Thomas Debarochez",
+  "name": "cloudapp",
+  "description": "A wrapper for the cloudapp API.",
+  "version": "0.1.1",
+  "contributors": [
+    { "name": "Sascha Depold", "email": "sascha@depold.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdepold/node-cloudapp.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "~0.6.2"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
