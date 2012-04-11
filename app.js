@@ -17,7 +17,6 @@ switch (process.argv[0]) {
     if (params.type == 'all') {
       delete params.type;
     }
-    console.log(params)
     cloud.getItems(params, console.log);
   break;
   case 'push':
