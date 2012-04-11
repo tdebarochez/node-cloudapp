@@ -23,7 +23,7 @@ switch (process.argv[0]) {
     cloud.addFile(process.argv[1], console.log);
   break;
   case 'bookmark':
-    cloud.getInfos(process.argv[1], console.log, process.argv[2]);    
+    cloud.getInfos(process.argv[1], console.log, process.argv[2]);
   break;
   case 'info':
     cloud.getInfos(process.argv[1], console.log);
